@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   margin-left: 500px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: yellow;
+    background-color: #555;
+}
+.scrolled {
+    background-color: #555 !important;
+}
+
+.section {
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.section .content {
+    max-width: 600px;
+}
+
+#home {
+    background-image: url('https://source.unsplash.com/1600x900/?travel');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 251);
+    font-size: x-large;
+}
+
+#destinations {
+    background-color: lightcoral;
+}
+
+#tours {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}
+.navbar-title {
+    margin: 5px;
+}

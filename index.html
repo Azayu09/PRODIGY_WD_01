@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+            <li class="nav-item"><a href="#tours" class="nav-link">Tours</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="search-container">
+                <form action="/search" method="GET">
+                    <input type="text" name="q" class="search-box" placeholder="Search...">
+                    <button type="submit" class="search-button">Search</button>
+                </form>
+                <style>
+                    .search-container {
+                    display: flex;
+                    justify-content: right;
+                    margin-top: 5px;
+                    margin-left: 200px;
+                }
+                    .search-box {
+                    padding: 10px;
+                    font-size: 16px;
+                }
+                    .search-button {
+                    padding: 10px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+                </style>
+            </li>
+        </ul>
+        
+        
+    </nav>
+
+
+    <section id="home" class="section">
+        <div class="content">
+            <h1>Welcome to Travel Explorer</h1>
+            <p>Your adventure starts here. Discover amazing places with us.</p>
+        </div>
+    </section>
+
+    <section id="destinations" class="section">
+        <div class="content">
+            <h1>Top Destinations</h1>
+            <p>Explore the most beautiful places around the world. From tropical beaches to historic cities, we have it all.</p>
+        </div>
+    </section>
+
+    <section id="tours" class="section">
+        <div class="content">
+            <h1>Exclusive Tours</h1>
+            <p>Join our exclusive tours and experience the best of each destination with our expert guides.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="content">
+            <h1>Contact Us</h1>
+            <p>Have questions or need assistance? Reach out to us, and we'll be happy to help you plan your next adventure.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
